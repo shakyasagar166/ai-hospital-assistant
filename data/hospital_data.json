@@ -1,0 +1,333 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Cardiology",
+      "description": "Comprehensive cardiac and vascular care offering non-invasive diagnostics, advanced angiography, heart failure management, and preventive heart health clinics.",
+      "floor_location": "2nd Floor, Wing A (Heart Center)",
+      "head_doctor": "Dr. Rajesh Sharma, MD, DM (Cardiology)",
+      "contact_ext": "201",
+      "image_url": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800"
+    },
+    {
+      "id": 2,
+      "name": "Neurology & Neurosurgery",
+      "description": "Expert neurological care for strokes, chronic migraines, epilepsy, neuropathy, Parkinson's disease, and spine rehabilitation.",
+      "floor_location": "3rd Floor, Wing B (Neuro Science Center)",
+      "head_doctor": "Dr. Ananya Mukherjee, MD, DM (Neurology)",
+      "contact_ext": "301",
+      "image_url": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800"
+    },
+    {
+      "id": 3,
+      "name": "Orthopedics & Joint Replacement",
+      "description": "Specialized orthopedic surgical and non-surgical care for fractures, sports injuries, joint replacement (knee, hip), arthroscopy, and arthritis management.",
+      "floor_location": "1st Floor, Wing C (Bone & Joint Clinic)",
+      "head_doctor": "Dr. Vikram Sethi, MS (Orthopedics)",
+      "contact_ext": "105",
+      "image_url": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800"
+    },
+    {
+      "id": 4,
+      "name": "Pediatrics & Child Care",
+      "description": "Compassionate pediatric and neonatal healthcare, developmental assessments, newborn vaccination drives, and pediatric intensive care (NICU/PICU).",
+      "floor_location": "4th Floor, Wing A (Mother & Child Center)",
+      "head_doctor": "Dr. Priya Patel, MD (Pediatrics)",
+      "contact_ext": "401",
+      "image_url": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=800"
+    },
+    {
+      "id": 5,
+      "name": "Dermatology & Skin Health",
+      "description": "Clinical and cosmetic dermatology treating acne, eczema, psoriasis, hair loss, skin allergies, and laser-assisted dermatological procedures.",
+      "floor_location": "Ground Floor, OPD Block 3",
+      "head_doctor": "Dr. Meera Nambiar, MD (Dermatology)",
+      "contact_ext": "108",
+      "image_url": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=800"
+    },
+    {
+      "id": 6,
+      "name": "General & Internal Medicine",
+      "description": "Primary healthcare and acute chronic illness management including fevers, hypertension, diabetes mellitus, infectious diseases, and executive wellness health checkups.",
+      "floor_location": "Ground Floor, OPD Block 1",
+      "head_doctor": "Dr. Alok Verma, MD (Internal Medicine)",
+      "contact_ext": "102",
+      "image_url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800"
+    },
+    {
+      "id": 7,
+      "name": "Gastroenterology & Hepatology",
+      "description": "Advanced care for gastrointestinal reflux (GERD), liver disorders, pancreatitis, irritable bowel syndrome (IBS), and diagnostic endoscopy & colonoscopy.",
+      "floor_location": "2nd Floor, Wing B",
+      "head_doctor": "Dr. Sanjeev Kapoor, MD, DM (Gastroenterology)",
+      "contact_ext": "205",
+      "image_url": "https://images.unsplash.com/photo-1551076805-e1869033e561?w=800"
+    },
+    {
+      "id": 8,
+      "name": "Pulmonology & Respiratory Medicine",
+      "description": "Diagnostic and therapeutic pulmonary care for asthma, chronic obstructive pulmonary disease (COPD), pneumonia, sleep apnea, and post-viral pulmonary rehabilitation.",
+      "floor_location": "3rd Floor, Wing A",
+      "head_doctor": "Dr. Kavita Joshi, MD (Chest & Pulmonary Medicine)",
+      "contact_ext": "304",
+      "image_url": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800"
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr. Rajesh Sharma",
+      "department": "Cardiology",
+      "specialization": "Interventional Cardiologist & Heart Failure Specialist",
+      "qualification": "MBBS, MD (Medicine), DM (Cardiology), FACC",
+      "experience_years": 18,
+      "consultation_fee_inr": 1200,
+      "rating": 4.9,
+      "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "available_hours": "09:30 AM - 01:30 PM",
+      "image_url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800"
+    },
+    {
+      "name": "Dr. Sunita Rao",
+      "department": "Cardiology",
+      "specialization": "Clinical Cardiologist & Preventive Cardiac Health",
+      "qualification": "MBBS, MD, DNB (Cardiology)",
+      "experience_years": 12,
+      "consultation_fee_inr": 900,
+      "rating": 4.7,
+      "available_days": ["Monday", "Wednesday", "Friday", "Saturday"],
+      "available_hours": "02:00 PM - 06:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1594824813682-14023c0bfdf4?w=800"
+    },
+    {
+      "name": "Dr. Ananya Mukherjee",
+      "department": "Neurology & Neurosurgery",
+      "specialization": "Neurologist & Headache / Stroke Specialist",
+      "qualification": "MBBS, MD (Medicine), DM (Neurology)",
+      "experience_years": 15,
+      "consultation_fee_inr": 1300,
+      "rating": 4.9,
+      "available_days": ["Tuesday", "Wednesday", "Thursday", "Saturday"],
+      "available_hours": "10:00 AM - 02:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800"
+    },
+    {
+      "name": "Dr. Rohan Malhotra",
+      "department": "Neurology & Neurosurgery",
+      "specialization": "Spine & Neurosurgeon",
+      "qualification": "MBBS, MS (General Surgery), MCh (Neurosurgery)",
+      "experience_years": 14,
+      "consultation_fee_inr": 1500,
+      "rating": 4.8,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "available_hours": "11:00 AM - 03:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=800"
+    },
+    {
+      "name": "Dr. Vikram Sethi",
+      "department": "Orthopedics & Joint Replacement",
+      "specialization": "Senior Joint Replacement & Arthroscopy Surgeon",
+      "qualification": "MBBS, MS (Ortho), Fellowship in Joint Replacement (UK)",
+      "experience_years": 20,
+      "consultation_fee_inr": 1100,
+      "rating": 4.9,
+      "available_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "available_hours": "09:00 AM - 01:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800"
+    },
+    {
+      "name": "Dr. Deepa Nair",
+      "department": "Orthopedics & Joint Replacement",
+      "specialization": "Sports Injury Specialist & Spine Rehabilitation",
+      "qualification": "MBBS, D.Ortho, DNB (Orthopedics)",
+      "experience_years": 10,
+      "consultation_fee_inr": 850,
+      "rating": 4.7,
+      "available_days": ["Monday", "Wednesday", "Saturday"],
+      "available_hours": "02:00 PM - 06:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1594824813682-14023c0bfdf4?w=800"
+    },
+    {
+      "name": "Dr. Priya Patel",
+      "department": "Pediatrics & Child Care",
+      "specialization": "General Pediatrician & Child Development Specialist",
+      "qualification": "MBBS, MD (Pediatrics), DCH",
+      "experience_years": 13,
+      "consultation_fee_inr": 800,
+      "rating": 4.9,
+      "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "available_hours": "09:00 AM - 01:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800"
+    },
+    {
+      "name": "Dr. Amit Roy",
+      "department": "Pediatrics & Child Care",
+      "specialization": "Neonatologist & Pediatric Critical Care (NICU)",
+      "qualification": "MBBS, MD (Pediatrics), Fellowship in Neonatology",
+      "experience_years": 11,
+      "consultation_fee_inr": 900,
+      "rating": 4.8,
+      "available_days": ["Tuesday", "Thursday", "Friday", "Saturday"],
+      "available_hours": "02:00 PM - 06:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=800"
+    },
+    {
+      "name": "Dr. Meera Nambiar",
+      "department": "Dermatology & Skin Health",
+      "specialization": "Consultant Dermatologist & Trichologist",
+      "qualification": "MBBS, MD (DVL - Dermatology, Venereology & Leprosy)",
+      "experience_years": 12,
+      "consultation_fee_inr": 850,
+      "rating": 4.8,
+      "available_days": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "available_hours": "10:00 AM - 02:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1594824813682-14023c0bfdf4?w=800"
+    },
+    {
+      "name": "Dr. Alok Verma",
+      "department": "General & Internal Medicine",
+      "specialization": "Senior Physician & Diabetologist",
+      "qualification": "MBBS, MD (General Medicine)",
+      "experience_years": 22,
+      "consultation_fee_inr": 700,
+      "rating": 4.9,
+      "available_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "available_hours": "09:00 AM - 02:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800"
+    },
+    {
+      "name": "Dr. Shweta Kulkarni",
+      "department": "General & Internal Medicine",
+      "specialization": "Consultant Physician & Infectious Diseases Expert",
+      "qualification": "MBBS, DNB (Internal Medicine)",
+      "experience_years": 9,
+      "consultation_fee_inr": 650,
+      "rating": 4.7,
+      "available_days": ["Monday", "Tuesday", "Thursday", "Saturday"],
+      "available_hours": "03:00 PM - 07:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800"
+    },
+    {
+      "name": "Dr. Sanjeev Kapoor",
+      "department": "Gastroenterology & Hepatology",
+      "specialization": "Senior Gastroenterologist & Therapeutic Endoscopist",
+      "qualification": "MBBS, MD (Med), DM (Gastroenterology)",
+      "experience_years": 17,
+      "consultation_fee_inr": 1200,
+      "rating": 4.9,
+      "available_days": ["Monday", "Wednesday", "Friday"],
+      "available_hours": "10:00 AM - 02:00 PM",
+      "image_url": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=800"
+    },
+    {
+      "name": "Dr. Kavita Joshi",
+      "department": "Pulmonology & Respiratory Medicine",
+      "specialization": "Pulmonologist, Asthma & Allergy Specialist",
+      "qualification": "MBBS, DTCD, DNB (Respiratory Diseases)",
+      "experience_years": 14,
+      "consultation_fee_inr": 950,
+      "rating": 4.8,
+      "available_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "available_hours": "10:00 AM - 01:30 PM",
+      "image_url": "https://images.unsplash.com/photo-1594824813682-14023c0bfdf4?w=800"
+    }
+  ],
+  "lab_tests": [
+    {
+      "name": "Complete Blood Count (CBC) with ESR",
+      "department": "General & Internal Medicine",
+      "sample_type": "Blood",
+      "fasting_required": false,
+      "turnaround_hours": 6,
+      "price_inr": 450,
+      "description": "Evaluates overall health and detects anemia, infections, leukemia, and inflammation markers."
+    },
+    {
+      "name": "Comprehensive Lipid Profile",
+      "department": "Cardiology",
+      "sample_type": "Blood",
+      "fasting_required": true,
+      "turnaround_hours": 12,
+      "price_inr": 850,
+      "description": "Measures Total Cholesterol, HDL, LDL, VLDL, and Triglycerides to assess cardiovascular risk. Requires 10-12 hours fasting."
+    },
+    {
+      "name": "HbA1c (Glycosylated Hemoglobin)",
+      "department": "General & Internal Medicine",
+      "sample_type": "Blood",
+      "fasting_required": false,
+      "turnaround_hours": 8,
+      "price_inr": 600,
+      "description": "Assesses 3-month average blood glucose level for diabetes diagnosis and tracking."
+    },
+    {
+      "name": "12-Lead Electrocardiogram (ECG)",
+      "department": "Cardiology",
+      "sample_type": "Diagnostic Non-Invasive",
+      "fasting_required": false,
+      "turnaround_hours": 1,
+      "price_inr": 350,
+      "description": "Records electrical activity of the heart to diagnose arrhythmias, ischemia, or heart strain."
+    },
+    {
+      "name": "2D Echocardiography with Color Doppler",
+      "department": "Cardiology",
+      "sample_type": "Ultrasound Imaging",
+      "fasting_required": false,
+      "turnaround_hours": 2,
+      "price_inr": 2200,
+      "description": "Ultrasound evaluation of heart valves, ejection fraction, and myocardial wall motion."
+    },
+    {
+      "name": "MRI Brain & Cervical Spine",
+      "department": "Neurology & Neurosurgery",
+      "sample_type": "Magnetic Resonance Imaging",
+      "fasting_required": false,
+      "turnaround_hours": 24,
+      "price_inr": 6500,
+      "description": "High-resolution imaging for stroke, tumors, nerve impingement, or multiple sclerosis."
+    },
+    {
+      "name": "Digital Chest X-Ray (PA View)",
+      "department": "Pulmonology & Respiratory Medicine",
+      "sample_type": "Radiology Imaging",
+      "fasting_required": false,
+      "turnaround_hours": 2,
+      "price_inr": 500,
+      "description": "Checks lungs, airways, and cardiac silhouette for pneumonia, bronchitis, or effusion."
+    },
+    {
+      "name": "Liver Function Test (LFT)",
+      "department": "Gastroenterology & Hepatology",
+      "sample_type": "Blood",
+      "fasting_required": true,
+      "turnaround_hours": 12,
+      "price_inr": 750,
+      "description": "Evaluates Bilirubin, SGOT/AST, SGPT/ALT, Alkaline Phosphatase, and Albumin for hepatic health."
+    },
+    {
+      "name": "Thyroid Profile (Total T3, T4, TSH)",
+      "department": "General & Internal Medicine",
+      "sample_type": "Blood",
+      "fasting_required": false,
+      "turnaround_hours": 12,
+      "price_inr": 700,
+      "description": "Screens for hypothyroidism and hyperthyroidism metabolic disorders."
+    },
+    {
+      "name": "Vitamin D3 & Vitamin B12 Duo",
+      "department": "Orthopedics & Joint Replacement",
+      "sample_type": "Blood",
+      "fasting_required": false,
+      "turnaround_hours": 24,
+      "price_inr": 1400,
+      "description": "Checks essential bone and nerve health vitamins for fatigue, bone aches, or tingling sensation."
+    }
+  ],
+  "hospital_protocols": [
+    "EMERGENCY PROTOCOL (Red Code): Immediate triage for acute chest pain radiating to left arm, sudden facial drooping/speech loss (Stroke FAST protocol), severe breathless distress, or trauma. Proceed straight to Ground Floor Emergency Room (ER) or call Ambulance Hotline Ext: 108 / 102. No appointment required.",
+    "VISITING HOURS: General Inpatient Wards: 04:00 PM to 07:00 PM daily (Maximum 2 visitors per patient). Intensive Care Units (ICU/CCU/NICU): 11:00 AM to 12:00 PM and 05:00 PM to 06:00 PM (1 immediate family visitor only).",
+    "INSURANCE & CASHLESS TPA: Cashless hospitalization is facilitated on Ground Floor TPA Desk. Network partners include Star Health, HDFC ERGO, ICICI Lombard, Care Health, Max Bupa/Niva Bupa, and Paramount TPA. Requires pre-authorization 48 hours before planned admission or within 24 hours of emergency admission.",
+    "LABORATORY FASTING RULES: Tests requiring 10-12 hours overnight water-only fasting include: Fasting Blood Sugar (FBS), Lipid Profile, and Liver Function Test (LFT). Do not consume tea, coffee, milk, or breakfast before morning blood collection.",
+    "APPOINTMENT CANCELLATION & RESCHEDULING: Patients can cancel or reschedule appointments online or via the AI Assistant up to 2 hours before the scheduled time slot without penalty."
+  ]
+}
